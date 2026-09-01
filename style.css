@@ -1,0 +1,98 @@
+/* Minimal custom styles — Tailwind CDN handles utilities */
+
+.nav-btn {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  color: #94a3b8;
+  transition: background 0.15s, color 0.15s;
+  width: 100%;
+}
+.nav-btn:hover { background: #1e293b; color: #e2e8f0; }
+.nav-btn.active { background: rgba(79, 70, 229, 0.2); color: #a5b4fc; }
+
+.btn-primary {
+  padding: 0.375rem 0.75rem;
+  background: #4f46e5;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+.btn-primary:hover { background: #6366f1; }
+.btn-primary:disabled { opacity: 0.5; }
+
+.btn-secondary {
+  padding: 0.375rem 0.75rem;
+  background: #334155;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  transition: background 0.15s;
+}
+.btn-secondary:hover { background: #475569; }
+
+.btn-danger {
+  padding: 0.375rem 0.75rem;
+  background: rgba(127, 29, 29, 0.6);
+  border: 1px solid #991b1b;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  transition: background 0.15s;
+}
+.btn-danger:hover { background: rgba(153, 27, 27, 0.6); }
+
+.card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.card-title { font-weight: 500; color: #a5b4fc; font-size: 0.875rem; margin-bottom: 0.25rem; }
+.card-desc { font-size: 0.75rem; color: #64748b; }
+
+.result-panel {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 0.375rem;
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  color: #cbd5e1;
+  min-height: 4rem;
+  white-space: pre-wrap;
+}
+
+.exercise-box {
+  background: rgba(69, 26, 3, 0.3);
+  border: 1px solid rgba(120, 53, 15, 0.5);
+  border-radius: 0.375rem;
+  padding: 0.75rem;
+}
+.exercise-label { font-size: 0.75rem; font-weight: 600; color: #fbbf24; margin-bottom: 0.25rem; }
+
+.code {
+  background: #1e293b;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  color: #a5b4fc;
+  font-size: 0.75rem;
+}
+
+.code-block {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 0.375rem;
+  padding: 0.75rem;
+  color: #94a3b8;
+  overflow-x: auto;
+}
+
+.badge-ok    { display: inline-block; padding: 0.125rem 0.5rem; border-radius: 0.25rem; font-size: 0.75rem; background: rgba(20, 83, 45, 0.5); color: #86efac; }
+.badge-error { display: inline-block; padding: 0.125rem 0.5rem; border-radius: 0.25rem; font-size: 0.75rem; background: rgba(127, 29, 29, 0.5); color: #fca5a5; }
+.badge-warn  { display: inline-block; padding: 0.125rem 0.5rem; border-radius: 0.25rem; font-size: 0.75rem; background: rgba(113, 63, 18, 0.5); color: #fde047; }
+.badge-info  { display: inline-block; padding: 0.125rem 0.5rem; border-radius: 0.25rem; font-size: 0.75rem; background: rgba(30, 58, 138, 0.5); color: #93c5fd; }
+
+.log-info    { color: #94a3b8; }
+.log-success { color: #4ade80; }
+.log-error   { color: #f87171; }
+.log-warn    { color: #fbbf24; }
+.log-event   { color: #a78bfa; }
