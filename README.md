@@ -1,5 +1,10 @@
 # DevPulse Async Laboratory
 
+> **Stuck or don't know where to start?**
+> 1. **[HOW_TO_LEARN.md](./HOW_TO_LEARN.md)** — how to study with this project
+> 2. **[LEARNING.md](./LEARNING.md)** — concept notes, in order
+> 3. This file — project map, extra exercises, solutions
+
 > **An async JavaScript learning laboratory disguised as a developer intelligence dashboard.**
 
 ---
